@@ -29,7 +29,7 @@ public class Program {
 
 		Account acc = new Account(number, name, balance, limitWithdraw);
 
-		System.out.println("Enter amount for withdraw: ");
+		System.out.println("Enter amount for withdraw: \n");
 		double amount = sc.nextDouble();
 		try {
 			acc.withdraw(amount);
